@@ -1,0 +1,53 @@
+@keyframes arribaNormal {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes izquierdaNormal {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+@keyframes opacidad {
+    from{
+        opacity:0;
+    }to{
+        opacity:1;
+    }
+    
+}
+@keyframes derechaNormal {
+    from {
+        right: -100%;
+    }
+    to {
+        right:  0;
+    }
+}
+@keyframes rotar {
+    from {
+       transform: rotate(30deg);
+       opacity: 0;
+    }
+    to {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+@keyframes antirotar {
+    from {
+       transform: rotate(-30deg);
+       opacity: 0;
+    }
+    to {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}

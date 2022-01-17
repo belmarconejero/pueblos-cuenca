@@ -1,0 +1,75 @@
+html,body, .contenedor, .escena{
+    height: 100%;
+}
+.contenedor{
+    background-color: #333;
+
+}
+.escena{
+display: block;
+background-color: red;
+position: relative;
+
+}
+#presentacion{
+    display: block;
+    background-color: blueviolet;
+}
+.contenido{
+    width: 50%;
+    height: 50%;
+    background-color:rgba(0, 0, 0, .5);
+    padding: 1em;
+    margin:  auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+}
+#presentacion{
+    background-image: url('riocabriel.jpg');
+    background-size: cover;
+    animation: arribaNormal 5s;
+}
+#alarcon{
+    background-image: url('alarcon.jpg');
+    background-size: cover;
+    animation:izquierdaNormal 5s;
+}
+#belmonte{
+    background-image: url('belmonte.jpg');
+    background-size: cover;
+}
+#sisante{
+    background-image: url('sisante.jpg');
+    background-size: cover;
+    animation:opacidad 5s;
+}
+#sanclemente{
+    background-image: url('sanclemente.jpg');
+    background-size: cover;
+    animation:derechaNormal 5s;
+}
+#huete{
+    background-image: url('huete.jpg');
+    background-size: cover;
+    animation: rotar 5s;
+}
+#contraportada{
+    background-image: url('contraportada.jpg');
+    background-size: cover;
+    animation: antirotar 5s;
+}
+#audio{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 4em;
+    color: white;
+    cursor: pointer;
+}
